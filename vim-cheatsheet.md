@@ -33,3 +33,10 @@
 ~                                                                                                                       
 ~
 ```                
+
+- `:q` : Exiting Vi
+- `:q!` : force exiting Vi
+- `vim foo.txt` : creating new file and editing using Vi
+- `press i` : to enter editing mode
+- `press ESC`: to exit insert mode
+- `:w` : to save work
