@@ -71,3 +71,38 @@ Key | Description
 `o` | The line below the current line.
 `O` | The line above the current line.
 `u` | undo the last change that you made.
+`J` | It is used to join the current line with the line below it.
+
+
+## Delete Commands
+
+Command | Description
+--- | ---
+x | The current character
+3x | The current character and the next two characters
+dd | The current line
+5dd | The current line and the next four lines
+dW | From the current cursor position to the beginning of the next word
+d$ | From the current cursor location to the end of the current line
+d0 | From the current cursor location to the beginning of the line
+d^ | From the current cursor location to the first non-whitespace character in the line
+dG | From the current line to the end of the file
+d20G | From the current line to the twentieth line of the file
+
+Note: The `d` command deletes and cuts text by saving it to a paste buffer, which can later be pasted using the `p` command.
+
+
+## Yanking Commands
+
+Command | Description
+--- | ---
+yy | The current line
+5yy | The current line and the next four lines
+yW | From the current cursor position to the beginning of the next word
+y$ | From the current cursor location to the end of the current line
+y0 | From the current cursor location to the beginning of the line
+y^ | From the current cursor location to the first non-whitespace character in the line
+yG | From the current line to the end of the file
+y20G | From the current line to the twentieth line of the file
+
+
