@@ -103,6 +103,6 @@ y$ | From the current cursor location to the end of the current line
 y0 | From the current cursor location to the beginning of the line
 y^ | From the current cursor location to the first non-whitespace character in the line
 yG | From the current line to the end of the file
-y20G | From the current line to the twentieth line of the file
+y20G | From the current line to the twentieth line of the file.
 
 
